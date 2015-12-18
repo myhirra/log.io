@@ -9,12 +9,16 @@
 
 * client
 
+```
 	var logIO = require('./logIO/index.js');
 	logIO.client.init({
 		filename:'/tmp/test.log'
 	});
+```
 
 * server
 
+```
 	var logIO = require('./logIO/index.js');
 	logIO.server.init();	
+```
